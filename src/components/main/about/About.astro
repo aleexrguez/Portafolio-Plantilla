@@ -1,0 +1,139 @@
+<section class="section-about">
+  <div class="linear-grandient-1"></div>
+  <div class="container-about">
+    <div class="container-text-about">
+      <h2 class="title-about" id="sobremi">Sobre mí</h2>
+  
+      <p>
+        Soy desarrollador web full stack, especializado en front-end, con formación en DAM y DAW. Desde mis primeros pasos en la programación, me ha apasionado crear interfaces web funcionales, limpias y visualmente atractivas. Disfruto dar vida a ideas mediante código, buscando siempre ofrecer la mejor experiencia posible al usuario.
+      </p>
+  
+      <p>
+        Me considero una persona autodidacta, responsable y creativa. Me gusta aprender constantemente, mantenerme actualizado con nuevas tecnologías y enfrentar desafíos técnicos que me permitan crecer. He trabajado tanto en proyectos personales como colaborativos, y tengo experiencia construyendo aplicaciones web modernas con tecnologías como Astro, React, TailwindCSS y más.
+      </p>
+  
+      <p>
+        Actualmente estoy finalizando mis estudios mientras sigo desarrollando proyectos y mejorando mi portafolio, con el objetivo de incorporarme profesionalmente al sector tech y seguir evolucionando como desarrollador.
+      </p>
+    </div>
+    <div class="container-svg-about">
+      <div class="container-svg">
+        <lottie-player
+          src="https://assets8.lottiefiles.com/packages/lf20_sg18igu8.json"
+          background="transparent"
+          speed="1"
+          style="width: 380px; height: 380px; position:relative;"
+          loop
+          autoplay></lottie-player>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script
+  src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
+></script>
+
+<style>
+  .linear-grandient-1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* background: radial-gradient(at left center, rgba(1, 190, 150 , 0.5), transparent , transparent); */
+    background: linear-gradient(to top, #000, rgba(1, 190, 150, 0.5));
+    background:;
+    z-index: 0;
+  }
+
+  .section-about {
+    position: relative;
+    background-color: #111111;
+  }
+  .container-about {
+    position: relative;
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1355px;
+  }
+
+  .container-text-about {
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .title-about {
+    position: relative;
+    display: block;
+    font-size: 27px;
+    padding: 10px 0;
+    color: #f6f6f9;
+    width: 100%;
+    font-weight: 800;
+    scroll-margin-top: 80px;
+  }
+  .container-text-about p {
+    font-size: 17px;
+    color: #f6f6f9;
+    text-align: left;
+    letter-spacing: 1px;
+  }
+
+  .container-svg-about {
+    position: relative;
+    width: 50%;
+  }
+  .container-svg {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+  }
+
+  /*  responsive  */
+
+  @media (max-width: 900px) {
+    /*Resposivo de la seccion sobre mi*/
+    .container-about {
+      flex-direction: column;
+    }
+    .container-svg-about {
+      width: 100%;
+    }
+    .container-svg {
+      justify-content: start;
+      align-items: end;
+      padding: 0;
+    }
+    .container-text-about {
+      width: 100%;
+      padding: 10px 0;
+    }
+  }
+  .container-text-about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.8;
+  font-size: 17px;
+  color: #f6f6f9;
+}
+
+.container-text-about p {
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.title-about {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #01be96;
+}
+
+</style>
