@@ -124,7 +124,7 @@ export const projects = [
   {
     img: "../../../img/OneLink.png",
     title: "One Link",
-    link: "https://ecommerce-stripe-763m.vercel.app/",
+    link: "https://onelink.ayar.es",
     description: `Aplicación tipo Linktree usando Symfony y Tailwind CSS.`,
     technologies: [
 
@@ -155,7 +155,7 @@ export const projects = [
   {
     img: "../../../img/ArcaneWarrior.png",
     title: "Arcane Warrior",
-    link: "https://nexanime.vercel.app",
+    //link: "https://nexanime.vercel.app",
     description: `Juego 2D creado con Unity y C#.`,
     technologies: [
 
@@ -170,7 +170,7 @@ export const projects = [
   {
     img: "../../../img/SRCompany.png",
     title: "SRCompany",
-    link: "https://preeminent-liger-266356.netlify.app/",
+    //link: "https://preeminent-liger-266356.netlify.app/",
     description: `App web para pedidos y pagos digitales en
                   restaurantes, desarrollada como proyecto de TFG.`,
     technologies: [
